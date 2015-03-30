@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<!-- saved from url=(0041)http://pic/admin/purchase_bill.php?pid=65 -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+
+ 
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="PIC India">
+<meta name="author" content="">
+
+<title>E - Receipt </title>
+
+<!-- Bootstrap Core CSS -->
+<link href="bootstrap.min.css" rel="stylesheet">
+
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+</head>
+
+<body style="font-size: 12px;">
+</div>
+    <div class="container-fluid">
+                <div>
+            <div class="row">
+                <div class="col-md-12 ">
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <table class="table table-noborder">
+                                <tr>
+                                    <td>
+                                        <img src="http://slife.co.in/images/mohan-raj.png" alt="">
+                                    </td>
+                                    <td>
+                                        <h3>E - Receipt</h3>
+                                    </td>
+                                    <td></td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="panel-body">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <h2></h2>
+                                    <table class="table table-bordered single" id="purchaseBill" aria-describedby="purchaseBill_info">
+                                        <thead>
+                                            <tr role="row">
+                                                <th class="sorting_asc" tabindex="0" aria-controls="purchaseBill" rowspan="1" colspan="1" aria-sort="ascending" aria-label="S.No: activate to sort column ascending" style="width: 30px;">S.No</th>
+                                                <th class="" tabindex="0" aria-controls="purchaseBill" rowspan="1" colspan="1" aria-label="Product Name: activate to sort column ascending" style="width: 300px;">Details</th><th class="" tabindex="0" aria-controls="purchaseBill" rowspan="1" colspan="1" aria-label="Rate: activate to sort column ascending" style="width: 221px;">Rate</th><th class="" tabindex="0" aria-controls="purchaseBill" rowspan="1" colspan="1" aria-label="Qty: activate to sort column ascending" style="width: 179px;">Qty</th><th class="" tabindex="0" aria-controls="purchaseBill" rowspan="1" colspan="1" aria-label="Amount: activate to sort column ascending" style="width: 256px;">Amount</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr class="">
+                                                <td class="">1</td>
+                                                <td class=" ">Tele Communication Service Charges</td>
+                                                <td class=" ">150.00</td>
+                                                <td class=" ">1</td>
+                                                <td class=" ">150.00</td>
+                                            </tr>
+                                        </tbody>
+                                        <tfoot>
+                                            <tr><td rowspan="1" colspan="1"></td><td rowspan="1" colspan="1"></td><td rowspan="1" colspan="1"></td><td class="text-right" rowspan="1" colspan="1"><b>Total: </b></td><td rowspan="1" colspan="1">150.00</td></tr>
+                                        </tfoot>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /#page-wrapper -->
+        
+    </div>
+    <!-- /#wrapper -->
+    <!-- jQuery Version 1.11.0 -->
+<script src="jquery.min.js"></script>
+    <script>
+        window.onload = function () {
+             
+             $('body').css('font-size','12px')
+             $('#purchaseBill thead tr th:nth-child(2)').css('width','300px')
+             $('#purchaseBill thead tr th:nth-child(1)').css('width','30px')
+             $('table.table-noborder tr td,table.table-noborder tr th').css('border','none')
+             window.print()
+             window.close()
+        }
+    </script>
+
+
+
+</body></html>
